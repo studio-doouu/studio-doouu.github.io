@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#01418d">
+  <meta name="description" content="Compare yesterday, today, and tomorrow weather at a glance with Share Weather.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Share Weather — See how the weather is changing">
+  <meta property="og:description" content="Yesterday, today, tomorrow, and the week ahead in one clear view.">
+  <meta property="og:image" content="https://studio-doouu.github.io/public/share-weather-glb/assets/logo.png">
+  <meta property="og:site_name" content="Share Weather">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://studio-doouu.github.io/public/share-weather-glb/index.html">
+  <link rel="alternate" hreflang="en" data-language-alternate href="?lang=en">
+  <link rel="alternate" hreflang="ja" data-language-alternate href="?lang=ja">
+  <link rel="alternate" hreflang="ko" data-language-alternate href="?lang=ko">
+  <link rel="alternate" hreflang="x-default" data-language-alternate href="?lang=en">
+  <link rel="icon" href="assets/logo.png">
+  <link rel="stylesheet" href="assets/site.css">
+  <title>Share Weather — See how the weather is changing</title>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="common.skip">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" data-keep-lang>
+        <img src="assets/logo.png" alt="" width="42" height="42">
+        <span data-i18n="common.appName">Share Weather</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html" data-keep-lang aria-current="page" data-i18n="nav.home">Overview</a>
+        <a href="support/index.html" data-keep-lang data-i18n="nav.support">Support</a>
+        <a href="privacy/index.html" data-keep-lang data-i18n="nav.privacy">Privacy</a>
+      </nav>
+      <div class="language-switcher" aria-label="Language">
+        <button class="language-button" type="button" data-lang="en" aria-pressed="true">🇺🇸</button>
+        <button class="language-button" type="button" data-lang="ja" aria-pressed="false">🇯🇵</button>
+        <button class="language-button" type="button" data-lang="ko" aria-pressed="false">🇰🇷</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow" data-i18n="hero.eyebrow">Weather, made comparable</p>
+          <h1 data-i18n="hero.title">See how the weather is changing.</h1>
+          <p class="lead" data-i18n="hero.lead">Compare yesterday, today, tomorrow, and the week ahead in one clear view—then share it in a tap.</p>
+          <div class="hero-actions">
+            <span class="button primary disabled" data-i18n="hero.appStore">App Store · Coming soon</span>
+            <span class="button disabled" data-i18n="hero.playStore">Google Play · Coming soon</span>
+            <a class="button" href="support/index.html" data-keep-lang data-i18n="hero.support">Get support</a>
+          </div>
+        </div>
+        <div class="visual-wrap" aria-label="Share Weather comparison preview" data-i18n-aria-label="hero.previewLabel">
+          <div class="visual-orbit" aria-hidden="true"></div>
+          <img class="visual-logo" src="assets/logo.png" alt="" width="128" height="128">
+          <div class="weather-panel" aria-hidden="true">
+            <div class="weather-top">
+              <div><div class="weather-place">Tokyo</div><div class="weather-date">THU · AUG 13</div></div>
+              <div class="weather-temp">27°</div>
+            </div>
+            <div class="compare-row">
+              <div class="day-card"><div class="day-label">YEST</div><div class="day-value">25°</div></div>
+              <div class="day-card today"><div class="day-label">TODAY</div><div class="day-value">27°</div></div>
+              <div class="day-card tomorrow"><div class="day-label">TMRW</div><div class="day-value">29°</div></div>
+            </div>
+            <div class="chart"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="features.eyebrow">Built for everyday decisions</p>
+          <h2 data-i18n="features.title">More context than a single temperature.</h2>
+          <p data-i18n="features.lead">Share Weather turns changing conditions into a visual story you can understand quickly.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card"><div class="card-icon" aria-hidden="true">↔️</div><h3 data-i18n="features.compareTitle">Compare days</h3><p data-i18n="features.compareBody">Read yesterday, today, and tomorrow side by side to spot meaningful changes.</p></article>
+          <article class="card"><div class="card-icon" aria-hidden="true">📈</div><h3 data-i18n="features.detailTitle">See the whole forecast</h3><p data-i18n="features.detailBody">Explore hourly trends, weekly outlooks, rain, wind, humidity, UV, and more.</p></article>
+          <article class="card"><div class="card-icon" aria-hidden="true">📍</div><h3 data-i18n="features.citiesTitle">Keep cities close</h3><p data-i18n="features.citiesBody">Search worldwide locations, save up to five cities, or use optional current location.</p></article>
+          <article class="card"><div class="card-icon" aria-hidden="true">📤</div><h3 data-i18n="features.shareTitle">Share the picture</h3><p data-i18n="features.shareBody">Create a clean weather image for family, friends, or plans on the move.</p></article>
+          <article class="card"><div class="card-icon" aria-hidden="true">🌐</div><h3 data-i18n="features.localeTitle">Made for your region</h3><p data-i18n="features.localeBody">Use English, Japanese, or Korean with regional defaults and flexible weather units.</p></article>
+          <article class="card"><div class="card-icon" aria-hidden="true">🔒</div><h3 data-i18n="features.controlTitle">You stay in control</h3><p data-i18n="features.controlBody">Location is optional. Search and saved-city forecasts remain available without it.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="band">
+          <div><h2 data-i18n="cta.title">Weather changes. Your plans can keep up.</h2><p data-i18n="cta.body">Learn how Share Weather works or read how your information is handled.</p></div>
+          <div class="hero-actions">
+            <a class="button accent" href="support/index.html" data-keep-lang data-i18n="cta.support">Visit support</a>
+            <a class="button" href="privacy/index.html" data-keep-lang data-i18n="cta.privacy">Read privacy policy</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div><div class="footer-brand"><img src="assets/logo.png" alt="" width="34" height="34"><span data-i18n="common.appName">Share Weather</span></div><div class="copyright">© 2026 Studio Doouu.</div></div>
+      <div class="footer-links"><a class="footer-link" href="support/index.html" data-keep-lang data-i18n="nav.support">Support</a><a class="footer-link" href="privacy/index.html" data-keep-lang data-i18n="nav.privacy">Privacy</a><a class="footer-link" href="mailto:studio.doouu@gmail.com" data-i18n="common.contact">Contact</a></div>
+    </div>
+  </footer>
+
+  <script>
+    window.PAGE_I18N = {
+      en: {
+        meta: { title: "Share Weather — See how the weather is changing", description: "Compare yesterday, today, and tomorrow weather at a glance with Share Weather." },
+        language: { en: "View in English", ja: "View in Japanese", ko: "View in Korean" },
+        common: { appName: "Share Weather", skip: "Skip to content", contact: "Contact" },
+        nav: { home: "Overview", support: "Support", privacy: "Privacy" },
+        hero: { eyebrow: "Weather, made comparable", title: "See how the weather is changing.", lead: "Compare yesterday, today, tomorrow, and the week ahead in one clear view—then share it in a tap.", appStore: "App Store · Coming soon", playStore: "Google Play · Coming soon", support: "Get support", previewLabel: "Share Weather comparison preview" },
+        features: { eyebrow: "Built for everyday decisions", title: "More context than a single temperature.", lead: "Share Weather turns changing conditions into a visual story you can understand quickly.", compareTitle: "Compare days", compareBody: "Read yesterday, today, and tomorrow side by side to spot meaningful changes.", detailTitle: "See the whole forecast", detailBody: "Explore hourly trends, weekly outlooks, rain, wind, humidity, UV, and more.", citiesTitle: "Keep cities close", citiesBody: "Search worldwide locations, save up to five cities, or use optional current location.", shareTitle: "Share the picture", shareBody: "Create a clean weather image for family, friends, or plans on the move.", localeTitle: "Made for your region", localeBody: "Use English, Japanese, or Korean with regional defaults and flexible weather units.", controlTitle: "You stay in control", controlBody: "Location is optional. Search and saved-city forecasts remain available without it." },
+        cta: { title: "Weather changes. Your plans can keep up.", body: "Learn how Share Weather works or read how your information is handled.", support: "Visit support", privacy: "Read privacy policy" }
+      },
+      ja: {
+        meta: { title: "シェアウェザー — 天気の変化をひと目で", description: "昨日・今日・明日の天気をひと目で比較できるシェアウェザー。" },
+        language: { en: "英語で表示", ja: "日本語で表示", ko: "韓国語で表示" },
+        common: { appName: "シェアウェザー", skip: "本文へ移動", contact: "お問い合わせ" },
+        nav: { home: "概要", support: "サポート", privacy: "プライバシー" },
+        hero: { eyebrow: "天気を、比べて分かりやすく", title: "天気の変化を、ひと目で。", lead: "昨日・今日・明日、そして週間予報までをひとつの画面で比較。見やすい天気画像もすぐに共有できます。", appStore: "App Store · 近日公開", playStore: "Google Play · 近日公開", support: "サポートを見る", previewLabel: "シェアウェザーの比較画面プレビュー" },
+        features: { eyebrow: "毎日の判断をもっと簡単に", title: "気温だけでは見えない変化まで。", lead: "シェアウェザーは、変わりゆく天気をすばやく理解できる視覚的なストーリーにします。", compareTitle: "日ごとに比較", compareBody: "昨日・今日・明日を並べて、変化のポイントをすぐに確認できます。", detailTitle: "予報を詳しく", detailBody: "時間帯別の推移、週間予報、降水、風、湿度、UVなどを確認できます。", citiesTitle: "都市を保存", citiesBody: "世界の都市を検索して最大5件まで保存。現在地の利用は任意です。", shareTitle: "天気を画像で共有", shareBody: "家族や友人、外出の予定に、見やすい天気画像を共有できます。", localeTitle: "地域に合わせて", localeBody: "英語・日本語・韓国語と、地域の初期値や柔軟な単位設定に対応します。", controlTitle: "選択はあなたに", controlBody: "位置情報は任意です。許可しなくても都市検索と保存した都市の予報を利用できます。" },
+        cta: { title: "天気が変わっても、予定はスムーズに。", body: "使い方や情報の取り扱いについて詳しくご覧いただけます。", support: "サポート", privacy: "プライバシーポリシー" }
+      },
+      ko: {
+        meta: { title: "Share Weather — 날씨 변화를 한눈에", description: "어제·오늘·내일 날씨를 한눈에 비교하는 Share Weather." },
+        language: { en: "영어로 보기", ja: "일본어로 보기", ko: "한국어로 보기" },
+        common: { appName: "Share Weather", skip: "본문으로 이동", contact: "문의" },
+        nav: { home: "소개", support: "지원", privacy: "개인정보" },
+        hero: { eyebrow: "비교하면 더 잘 보이는 날씨", title: "날씨가 어떻게 변하는지 한눈에.", lead: "어제·오늘·내일과 주간 예보를 한 화면에서 비교하고, 보기 좋은 날씨 이미지로 바로 공유하세요.", appStore: "App Store · 출시 예정", playStore: "Google Play · 출시 예정", support: "지원 보기", previewLabel: "Share Weather 비교 화면 미리보기" },
+        features: { eyebrow: "일상의 결정을 더 쉽게", title: "하나의 기온보다 풍부한 맥락.", lead: "Share Weather는 변화하는 날씨를 빠르게 이해할 수 있는 시각적인 이야기로 보여줍니다.", compareTitle: "날짜별 비교", compareBody: "어제·오늘·내일을 나란히 보고 중요한 변화를 빠르게 파악할 수 있습니다.", detailTitle: "꼼꼼한 예보", detailBody: "시간대별 변화, 주간 예보, 강수, 바람, 습도, 자외선 등을 확인합니다.", citiesTitle: "도시 저장", citiesBody: "세계 도시를 검색해 최대 5개까지 저장하고, 원할 때만 현재 위치를 사용합니다.", shareTitle: "이미지로 공유", shareBody: "가족, 친구, 외출 계획에 보기 좋은 날씨 이미지를 공유할 수 있습니다.", localeTitle: "지역에 맞는 설정", localeBody: "영어·일본어·한국어와 지역별 기본 단위, 세부 단위 설정을 지원합니다.", controlTitle: "선택권은 사용자에게", controlBody: "위치 권한은 선택 사항입니다. 허용하지 않아도 도시 검색과 저장 도시 예보를 사용할 수 있습니다." },
+        cta: { title: "날씨가 변해도, 계획은 유연하게.", body: "사용 방법과 개인정보 처리 방식을 자세히 확인하세요.", support: "지원 페이지", privacy: "개인정보처리방침" }
+      }
+    };
+  </script>
+  <script src="assets/site.js"></script>
+</body>
+</html>
